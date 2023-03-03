@@ -1,0 +1,7 @@
+﻿{
+    "Configuration": {
+        "TestMode": true, // Set to true when testing your snake and false when running the final battle.
+        "MillisecondsBetweenMoves": 50,
+        "Rounds": 3
+    }
+}
