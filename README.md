@@ -7,6 +7,8 @@ Snake battle is an exercise for practicing teamwork (and coding). Your task is t
 
 The repository contains a full snake game, but the snake is just a dummy. Your job is to make it smart.
 
+The game is a C# console app (.NET 6).
+
 ## How is the exercise organized?
 
 1. The participants are divided into teams of 2-3 persons.
@@ -37,3 +39,9 @@ The repository contains a full snake game, but the snake is just a dummy. Your j
 1. If your snake doesn’t work as expected, add a breakpoint in your player class and start debugging.
 1. Note that if your player throws an unhandled exception, the game won’t crash, but your snake will just keep going forward silently.
 1. Contact the facilitator if you have technical issues.
+
+## Running the final battle (info for facilitator)
+
+1. Complete the pull requests created by the teams and make sure all the newly created player classes are placed in Domain/Player/ folder.
+1. In ConsoleApp/config.json, set "TestMode" to false.
+1. Run the solution.
